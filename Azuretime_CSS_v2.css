@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
 
 
@@ -22,7 +21,7 @@ color:#E8E6D1; } }
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #4B5540;
+    background: #7F8D6F;
 }
 
 h1 {
@@ -32,20 +31,20 @@ text-align: center !important;
 font-family: "Modern Antiqua", serif;}
 
 h2 {
-color: #584734 !important;
+color: #D0C5A6 !important;
 font-size: 24px;}
 
 h3 {
-color: #56365D !important;
+color: #B28DAF !important;
 font-size: 18px;}
 
 a:link,
 a:visited {
-color: #4B5540 !important;
+color: #A0AA8D !important;
 background: none !important; }
    
 a:hover {
-color: #7f8d6f !important; }
+color: #C0C9AA !important; }
 
 .container.main {
 background: rgba(118, 84, 104, 0.5);
@@ -69,7 +68,7 @@ border: none !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
-background: #7f8d6f !important;
+background: #7F8D6F !important;
 color: #443B25 !important; }
 
 .breadcrumb {
@@ -79,26 +78,26 @@ border: none !important;
 border-radius: 0px !important;} 
 
 .breadcrumb .active {
-color: #4B5540; }
+color: #A0AA8D !important; }
 
 .alert {
 background: rgba(138, 80, 132, 0.7) !important;
-color: #663a61 !important;
+color: #E8E6D1 !important;
 border: none !important;
-border-radius: 0px !important;
+border-radius: 4px !important;
 text-align: center !important;  }
 
 .alert-warning {
 background: rgba(120, 97, 72, 0.7) !important;
-color: #614e3a !important;}
+color: #E8E6D1 !important;}
 
 .alert-danger {
 background: rgba(120, 60, 72, 0.7) !important;
-color: #592f38 !important;}
+color: #E8E6D1 !important;}
 
 .alert-success {
 background: rgba(105, 120, 89, 0.7) !important;
-color: #59664b !important;}
+color: #E8E6D1 !important;}
 
 
 div#commentBox {
@@ -110,15 +109,20 @@ div#commentBox {
 	
 .comment {     
     background: #492B46 !important;
-    border: none !important;
+    border: 2px dotted #7F8D6F !important;
     border-bottom: none !important;
-    border-radius: 0px !important;
+    border-radius: 6px !important;
     color: #E8E6D1 !important;
     text-align: center !important;
 }
 
+.comment:hover {
+    background: #684D66 !important;
+    transition: 0.2s ease;
+}
+
 .text-muted { 
-    color: #7F8D6F !important;
+    color: #A0AA8D !important;
 }
 
 input.bad {
@@ -139,16 +143,22 @@ table#player.table div.xlarge {
 }
 
 .panel {
-background-color:#584734 ;
-background-image: url("https://www.transparenttextures.com/patterns/wild-flowers.png");
-color: #E8E6D1 !important;
-border: none !important;
-border-radius: 0px !important;
-box-shadow: none !important;  }
+    background-color: #584734 !important;
+    background-image:
+        linear-gradient(45deg, rgba(127,141,111,0.08) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(127,141,111,0.08) 25%, transparent 25%),
+        url("https://www.transparenttextures.com/patterns/wild-flowers.png");
+    background-size: 12px 12px, 12px 12px, auto;
+    color: #E8E6D1 !important;
+    border: 1px dotted #7F8D6F !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
 
 button#label_currentChannel {
-    border: none !important;
+    border: 1px dotted #7F8D6F !important;
     background: #492B46 !important;
+    color: #E8E6D1 !important;
 }
 
 div#chatMessageContainer {
@@ -156,7 +166,7 @@ div#chatMessageContainer {
 }
 
 .s-chat-message_timestamp {
-    color: #7F8D6F !important;
+    color: #A0AA8D !important;
 }
 
 .s-chat-sidebar #fraChatChannelMenu,
@@ -164,27 +174,28 @@ button.channelSwitcher,
 button.channelSwitcher.active {
     background: #443B25 !important;
     color: #E8E6D1 !important;
-    border: none !important;
-    border-radius: 0px !important;
+    border: 1px dotted #7F8D6F !important;
+    border-radius: 4px !important;
     box-shadow: none !important;
 }
 
 div.emoteList.active {
     background: #584734 !important;
-    border: 1px solid #4B5540 !important;
+    border: 1px dotted #7F8D6F !important;
+    border-radius: 5px !important;
     box-shadow: none !important;
 }
 
 div.emoteList.active::before {
     background: #584734 !important;
     border-top: none !important;
-    border: 1px solid #4B5540 !important;
+    border: 1px dotted #7F8D6F !important;
 }
 
 .s-chat-message__pinned {
     background-color: #684D66 !important;
     color: #E8E6D1 !important;
-    border: none !important;
+    border: 1px dotted #A0AA8D !important;
 }
 
 .s-chat-message {
@@ -205,19 +216,24 @@ div.emoteList.active::before {
 
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
     background-color: #684D66 !important;
-    border-left: 6px solid #7F8D6F !important;
+    border-left: 6px solid #A0AA8D !important;
     color: #E8E6D1 !important;
 }
 
 div#lblCharacterCounter {
-    color: #7F8D6F !important;
+    color: #A0AA8D !important;
 }
 
 .feature {
     background: #584734 !important;
     color: #E8E6D1 !important;
-    border: 3px double #4B5540 !important;
-    border-radius: 0px !important;
+    border: 3px double #7F8D6F !important;
+    border-radius: 6px !important;
+}
+
+.feature:hover {
+    border-color: #A0AA8D !important;
+    transition: 0.2s ease;
 }
 
 div.left {
@@ -232,13 +248,20 @@ div.left {
 }
 
 .table {
-background: rgba(0, 0, 0, 0.0);
-border: none !important;
-border-collapse: separate;
-border-radius: 0px; }
+    background: rgba(0, 0, 0, 0.0);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 0px;
+}
 
 .top, .bottom, th {
-    background: #584734 !important;
+    background-color: #584734 !important;
+    background-image:
+        linear-gradient(45deg, rgba(127,141,111,0.10) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(127,141,111,0.10) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(127,141,111,0.10) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(127,141,111,0.10) 75%);
+    background-size: 10px 10px;
     color: #E8E6D1 !important;
     border: none !important;
     border-radius: 0px !important;
@@ -256,7 +279,8 @@ border-radius: 0px; }
 
 .inner-table .right {
     background: #492B46 !important;
-    border-radius: 0px !important;
+    border: 1px dotted #7F8D6F !important;
+    border-radius: 5px !important;
     color: #E8E6D1 !important;
 }
 
@@ -276,6 +300,12 @@ table#player img {
 }
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-display: none;}
+    display: none;
+}
+
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url(''); }
+    content: url('');
+}
+```
+
+
