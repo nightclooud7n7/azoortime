@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+
+body {font-family:"Modern Antiqua", serif;}
+.topbar {font-family:"Modern Antiqua", serif;} 
+.navbar {font-family:"Modern Antiqua", serif;}
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://i.pinimg.com/736x/65/a2/21/65a2219a73e56af4250387941ae4d0e2.jpg') center center fixed;
+background-size: cover;
+color:#E8E6D1; } }
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #443B25;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4B5540;
+}
+
+h1 {
+color: #E8E6D1 !important;
+font-size: 64px;
+text-align: center !important;
+font-family: "Modern Antiqua", serif;}
+
+h2 {
+color: #584734 !important;
+font-size: 24px;}
+
+h3 {
+color: #56365D !important;
+font-size: 18px;}
+
+a:link,
+a:visited {
+color: #4B5540 !important;
+background: none !important; }
+   
+a:hover {
+color: #7f8d6f !important; }
+
+.container.main {
+background: rgba(118, 84, 104, 0.5);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+
+.col-md-9 {
+background: none; } 
+
+.topbar {
+background: #3F2127 !important;
+color: #E8E6D1 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: #492B46 !important;
+color: #E8E6D1 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #7f8d6f !important;
+color: #443B25 !important; }
+
+.breadcrumb {
+background:#443B25 !important;
+color: #E8E6D1 !important;
+border: none !important;
+border-radius: 0px !important;} 
+
+.breadcrumb .active {
+color: #4B5540; }
+
+.alert {
+background: rgba(138, 80, 132, 0.7) !important;
+color: #663a61 !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
+
+.alert-warning {
+background: rgba(120, 97, 72, 0.7) !important;
+color: #614e3a !important;}
+
+.alert-danger {
+background: rgba(120, 60, 72, 0.7) !important;
+color: #592f38 !important;}
+
+.alert-success {
+background: rgba(105, 120, 89, 0.7) !important;
+color: #59664b !important;}
+
+
+div#commentBox {
+    background: rgba(68, 59, 37, 0.75) !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #E8E6D1 !important;
+}
+	
+.comment {     
+    background: #492B46 !important;
+    border: none !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    color: #E8E6D1 !important;
+    text-align: center !important;
+}
+
+.text-muted { 
+    color: #7F8D6F !important;
+}
+
+input.bad {
+    background: #3F2127 !important;
+    color: #E8E6D1 !important;
+}
+
+input.bad a {
+    color: #E8E6D1 !important;
+}
+
+table#player.table hr {
+    display: none !important;
+}
+
+table#player.table div.xlarge { 
+    margin-top: 10px !important;
+}
+
+.panel {
+background-color:#584734 ;
+background-image: url("https://www.transparenttextures.com/patterns/wild-flowers.png");
+color: #E8E6D1 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+ 
+
+
