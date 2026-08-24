@@ -145,6 +145,137 @@ color: #E8E6D1 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
- 
 
+button#label_currentChannel {
+    border: none !important;
+    background: #492B46 !important;
+}
 
+div#chatMessageContainer {
+    border: none !important;
+}
+
+.s-chat-message_timestamp {
+    color: #7F8D6F !important;
+}
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher,
+button.channelSwitcher.active {
+    background: #443B25 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+div.emoteList.active {
+    background: #584734 !important;
+    border: 1px solid #4B5540 !important;
+    box-shadow: none !important;
+}
+
+div.emoteList.active::before {
+    background: #584734 !important;
+    border-top: none !important;
+    border: 1px solid #4B5540 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #684D66 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+}
+
+.s-chat-message {
+    background: #443B25 !important;
+    color: #E8E6D1 !important;
+    border-bottom: 1px solid #584734 !important;
+}
+
+.s-chat-message:nth-child(even) {
+    background: #492B46 !important;
+    border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    background: #443B25 !important;
+    border: none !important;
+}
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+    background-color: #684D66 !important;
+    border-left: 6px solid #7F8D6F !important;
+    color: #E8E6D1 !important;
+}
+
+div#lblCharacterCounter {
+    color: #7F8D6F !important;
+}
+
+.feature {
+    background: #584734 !important;
+    color: #E8E6D1 !important;
+    border: 3px double #4B5540 !important;
+    border-radius: 0px !important;
+}
+
+div.left {
+    background: #443B25 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.xsmall {
+    font-size: 14px !important;
+}
+
+.table {
+background: rgba(0, 0, 0, 0.0);
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+    background: #584734 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.table .left {
+    background: #443B25;
+    border-radius: 0px !important;
+}
+
+.inner-table .left {
+    background: #584734 !important;
+    border-radius: 0px !important;
+}
+
+.inner-table .right {
+    background: #492B46 !important;
+    border-radius: 0px !important;
+    color: #E8E6D1 !important;
+}
+
+.right_odd {
+    background: none !important;
+}
+
+div#lion_image {
+    opacity: 0.95;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+table#player img {
+    opacity: 0.95;
+    border-radius: 50%;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url(''); }
