@@ -367,3 +367,41 @@ img[src$="caveunused.jpg"] {
     content: url("https://i.pinimg.com/736x/1e/51/8d/1e518da970955876a2c87f315585536c.jpg") !important;
 }
 
+h2 {
+    position: relative;
+    color: #D0C5A6 !important;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2::before {
+    content: "❦  ✦  ";
+    color: #7F8D6F;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+h2::after {
+    content: "  ✦  ❦";
+    color: #7F8D6F;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+h3 {
+    position: relative;
+    color: #B28DAF !important;
+    font-size: 18px;
+    text-align: center;
+}
+
+h3::after {
+    content: "━━━━━━ ❦ ━━━━━━";
+    display: block;
+    color: #7F8D6F;
+    font-size: 11px;
+    margin-top: 4px;
+    opacity: 0.8;
+}
+
+
