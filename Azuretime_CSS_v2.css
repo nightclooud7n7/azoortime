@@ -341,10 +341,7 @@ a.btn.btn-default.button:hover {
     border-radius: 5px !important;
 }
 
-div.cave-grid>img {
-content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
-width: 75px;
-height: 75px; }
+
 
 a[href$="423983"]>div.cave-grid>img {
 content: url('https://i.pinimg.com/736x/aa/c8/39/aac8391d4d0edd93bf554f086f0f02b5.jpg')!important;
