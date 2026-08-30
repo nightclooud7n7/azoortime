@@ -89,7 +89,7 @@ letter-spacing: 0.3px;
 background: rgba(118, 84, 104, 0.5);
 border: none;
 box-shadow: none;
-border-radius: 5px;
+border-radius: 10px;
 }
 
 .col-md-9 {
@@ -100,7 +100,7 @@ background: none;
 background: #3F2127 !important;
 color: #E8E6D1 !important;
 border: none !important;
-border-radius: 0 0 8px 8px !important;
+border-radius: 8px !important;
 transition: 0.3s ease;
 }
 
@@ -112,13 +112,13 @@ transition: 0.3s ease;
 background: #492B46 !important;
 color: #E8E6D1 !important;
 border: none !important;
-border-radius: 0 0 8px 8px !important;
+border-radius: 8px !important;
 }
 
 .navbar li a {
     position: relative;
     border: 1px solid #3F2127 !important;
-    border-radius: 6px !important;
+    border-radius: 8px !important;
     transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -148,7 +148,7 @@ border-radius: 0 0 8px 8px !important;
 background:#443B25 !important;
 color: #E8E6D1 !important;
 border: none !important;
-border-radius: 0 0 6px 6px !important;
+border-radius: 8px !important;
 transition: 0.25s ease;
 }
 
@@ -164,7 +164,7 @@ color: #A0AA8D !important;
 background: rgba(138, 80, 132, 0.7) !important;
 color: #E8E6D1 !important;
 border: none !important;
-border-radius: 4px !important;
+border-radius: 7px !important;
 text-align: center !important;
 transition: transform 0.25s ease, background 0.25s ease;
 }
@@ -193,7 +193,7 @@ color: #E8E6D1 !important;
 div#commentBox {
     background: rgba(68, 59, 37, 0.75) !important;
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
     color: #E8E6D1 !important;
 }
 
@@ -201,7 +201,7 @@ div#commentBox {
     background: #492B46 !important;
     border: 2px dotted #7F8D6F !important;
     border-bottom: none !important;
-    border-radius: 6px !important;
+    border-radius: 8px !important;
     color: #E8E6D1 !important;
     text-align: center !important;
     transition: transform 0.2s ease, background 0.2s ease;
@@ -242,7 +242,7 @@ table#player.table div.xlarge {
     background-size: 12px 12px, 12px 12px, auto;
     color: #E8E6D1 !important;
     border: 1px dotted #7F8D6F !important;
-    border-radius: 6px !important;
+    border-radius: 8px !important;
     box-shadow: none !important;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
@@ -255,7 +255,7 @@ button#label_currentChannel {
     border: 1px dotted #7F8D6F !important;
     background: #492B46 !important;
     color: #E8E6D1 !important;
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
@@ -278,7 +278,7 @@ button.channelSwitcher.active {
     background: #443B25 !important;
     color: #E8E6D1 !important;
     border: 1px dotted #7F8D6F !important;
-    border-radius: 4px !important;
+    border-radius: 7px !important;
     box-shadow: none !important;
     transition: transform 0.2s ease, background 0.2s ease;
 }
@@ -292,7 +292,7 @@ button.channelSwitcher.active:hover {
 div.emoteList.active {
     background: #584734 !important;
     border: 1px dotted #7F8D6F !important;
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     box-shadow: none !important;
 }
 
@@ -306,7 +306,7 @@ div.emoteList.active::before {
     background-color: #684D66 !important;
     color: #E8E6D1 !important;
     border: 1px dotted #A0AA8D !important;
-    border-radius: 4px !important;
+    border-radius: 7px !important;
 }
 
 .s-chat-message {
@@ -344,7 +344,7 @@ div#lblCharacterCounter {
     background: #584734 !important;
     color: #E8E6D1 !important;
     border: 3px double #7F8D6F !important;
-    border-radius: 6px !important;
+    border-radius: 8px !important;
     transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
@@ -357,7 +357,7 @@ div.left {
     background: #443B25 !important;
     color: #E8E6D1 !important;
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .xsmall {
@@ -368,7 +368,7 @@ div.left {
     background: rgba(0, 0, 0, 0.0);
     border: none !important;
     border-collapse: separate;
-    border-radius: 0px;
+    border-radius: 8px;
 }
 
 .top, .bottom, th {
@@ -381,23 +381,23 @@ div.left {
     background-size: 10px 10px;
     color: #E8E6D1 !important;
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .table .left {
     background: #443B25;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .inner-table .left {
     background: #584734 !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .inner-table .right {
     background: #492B46 !important;
     border: 1px dotted #7F8D6F !important;
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     color: #E8E6D1 !important;
     transition: background 0.2s ease;
 }
@@ -440,7 +440,7 @@ input, textarea, select, button.button,
 a.btn.btn-default.button {
     background: #492B46 !important;
     border: 2px dotted #7F8D6F !important;
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     color: #E8E6D1 !important;
     text-shadow: none !important;
     transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
@@ -467,7 +467,7 @@ a.btn.btn-default.button:hover {
     background-size: 10px 10px;
     color: #E8E6D1 !important;
     border: 1px dotted #7F8D6F !important;
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
