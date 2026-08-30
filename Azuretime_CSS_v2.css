@@ -290,9 +290,16 @@ div.left {
 }
 
 div#lion_image {
-    opacity: 0.80;
+    opacity: 0.9;
     border-radius: 50%;
     overflow: hidden;
+    border: 3px dotted #7F8D6F !important;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+div#lion_image:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
 
 table#player img {
