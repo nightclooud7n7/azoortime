@@ -529,3 +529,150 @@ img[src$="caveunused.jpg"] {
     opacity: 1;
     transform: rotate(20deg);
 }
+
+
+
+/* ═══════════════════════════════
+   AZURETIME — CUTE INFO BOXES
+   ═══════════════════════════════ */
+
+.boxcontainer {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: stretch;
+    margin: 12px 0 !important;
+}
+
+.Box1,
+.Box2 {
+    position: relative;
+    flex: 1;
+    min-height: 100px;
+    padding: 14px !important;
+
+    background-color: #584734 !important;
+
+    background-image:
+        linear-gradient(45deg, rgba(127,141,111,0.08) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(127,141,111,0.08) 25%, transparent 25%);
+
+    background-size: 12px 12px;
+
+    border: 2px dotted #7F8D6F !important;
+    border-radius: 8px !important;
+
+    color: #E8E6D1 !important;
+
+    box-shadow: 3px 3px 0 rgba(63,33,39,0.25);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+/* FRUFRU NOS CANTINHOS */
+
+.Box1::before,
+.Box2::before {
+    content: "❦";
+    position: absolute;
+    top: 5px;
+    left: 9px;
+
+    color: #A0AA8D;
+    font-size: 14px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* OUTRO FRUFRU */
+
+.Box1::after,
+.Box2::after {
+    content: "✦";
+    position: absolute;
+    bottom: 5px;
+    right: 9px;
+
+    color: #B28DAF;
+    font-size: 11px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* HOVER */
+
+.Box1:hover,
+.Box2:hover {
+    transform: translateY(-3px);
+
+    border-color: #A0AA8D !important;
+
+    box-shadow:
+        4px 5px 0 rgba(63,33,39,0.3);
+}
+
+.Box1:hover::before,
+.Box2:hover::before {
+    transform: rotate(15deg) scale(1.15);
+}
+
+.Box1:hover::after,
+.Box2:hover::after {
+    transform: rotate(25deg) scale(1.2);
+}
+
+
+/* TÍTULOS */
+
+.Box1 h3,
+.Box2 h3 {
+    color: #D0C5A6 !important;
+    font-size: 18px !important;
+    text-align: center !important;
+
+    margin-top: 3px !important;
+    margin-bottom: 8px !important;
+}
+
+
+/* LINHA DECORATIVA */
+
+.Box1 h3::after,
+.Box2 h3::after {
+    content: "━━━━ ❦ ━━━━";
+    display: block;
+
+    color: #7F8D6F;
+    font-size: 9px;
+
+    margin-top: 3px;
+    opacity: 0.8;
+}
+
+
+/* LINKS DENTRO DAS BOXES */
+
+.Box1 a,
+.Box2 a {
+    color: #A0AA8D !important;
+    transition: color 0.2s ease;
+}
+
+.Box1 a:hover,
+.Box2 a:hover {
+    color: #C0C9AA !important;
+}
+
+
+/* TEXTO */
+
+.Box1 p,
+.Box2 p {
+    color: #E8E6D1 !important;
+}
