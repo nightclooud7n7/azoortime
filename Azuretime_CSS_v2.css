@@ -489,26 +489,33 @@ height: auto !important;
 /* UNSORTED LIONS */
 img[src$="unsortedlionsbanner.png"] {
     content: url("https://i.pinimg.com/736x/fb/d4/8e/fbd48e60604e6dd9ec84a1bcccb6e08b.jpg") !important;
+    width: 258px !important;
+    height: auto !important;
 }
 
 
 /* PREGNANT LIONESSES */
 img[src$="nestingbanner.png"] {
     content: url("https://i.pinimg.com/736x/0c/09/ee/0c09eecd6bad657b82c23f860195af85.jpg") !important;
+    width: 258px !important;
+    height: auto !important;
 }
 
 
 /* PRIDE OVERVIEW */
 img[src$="overviewbanner.png"] {
     content: url("https://i.pinimg.com/736x/14/47/63/14476382236c6060c5eca6ccc12bb158.jpg") !important;
+    width: 258px !important;
+    height: auto !important;
 }
 
 
 /* EMPTY CAVE */
 img[src$="caveunused.jpg"] {
     content: url("https://i.pinimg.com/736x/1e/51/8d/1e518da970955876a2c87f315585536c.jpg") !important;
+    width: 258px !important;
+    height: auto !important;
 }
-
 
 /* EXTRA FRUFRU */
 .navbar li a {
