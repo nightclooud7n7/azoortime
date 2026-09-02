@@ -109,25 +109,34 @@ transition: 0.3s ease;
 }
  
 .navbar {
-background: #492B46 !important;
-color: #E8E6D1 !important;
-border: none !important;
-border-radius: 8px !important;
+    background: #492B46 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+    border-radius: 8px !important;
 }
 
 .navbar li a {
     position: relative;
     border: 1px solid #3F2127 !important;
     border-radius: 8px !important;
-    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
 .navbar li a:hover {
     background: #7F8D6F !important;
     color: #443B25 !important;
     border-color: #443B25 !important;
-    transform: scale(0.97);
-}  
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 3px 0 #443B25;
+}
 
 .navbar li a::after {
     content: "✦";
@@ -136,14 +145,16 @@ border-radius: 8px !important;
     opacity: 0;
     font-size: 9px;
     color: #D0C5A6;
-    transition: opacity 0.2s ease, transform 0.2s ease;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
 }
 
 .navbar li a:hover::after {
     opacity: 1;
     transform: rotate(20deg);
 }
-
 .breadcrumb {
 background:#443B25 !important;
 color: #E8E6D1 !important;
