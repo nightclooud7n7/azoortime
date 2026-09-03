@@ -694,3 +694,41 @@ img[src$="caveunused.jpg"] {
 .Box2 p {
     color: #E8E6D1 !important;
 }
+
+/* ═══════════════════════════════════════
+   ✦ AZURETIME PANELS ✦
+   ═══════════════════════════════════════ */
+
+.panel {
+    background-color: #584734 !important;
+    border: 2px dotted #7F8D6F !important;
+    border-radius: 8px !important;
+    box-shadow: 0 3px 0 rgba(68, 59, 37, 0.35) !important;
+    overflow: hidden;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+/* Cabeçalho dos panels */
+.panel-heading,
+.panel > .panel-heading {
+    background: #492B46 !important;
+    color: #E8E6D1 !important;
+    border: none !important;
+    border-bottom: 1px dotted #7F8D6F !important;
+    border-radius: 6px 6px 0 0 !important;
+}
+
+/* Links dentro dos panels */
+.panel a {
+    color: #A0AA8D !important;
+    transition: color 0.2s ease;
+}
+
+.panel a:hover {
+    color: #C0C9AA !important;
+}
+
+/* Pequeno acabamento no hover */
+.panel:hover {
+    box-shadow: 0 4px 0 rgba(68, 59, 37, 0.45) !important;
+}
